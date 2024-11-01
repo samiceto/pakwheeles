@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-Link
 const page = () => {
   return (
     <div className='bg-blue-100 text-center flex flex-col gap-7 pt-10 h-full'>

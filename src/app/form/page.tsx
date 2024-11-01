@@ -1,7 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-Link
-
 const page = () => {
   return (
     <div className='bg-blue-100 text-center flex flex-col gap-7 pt-10 h-screen'>
