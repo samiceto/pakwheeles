@@ -27,7 +27,7 @@ const page = () => {
         <p className='text-xs'><span className='font-bold'> Fule Type: </span>High Octane</p>
 
         </div>
-        <p className='text-green-500 text-lg'>PKR 50'000</p>
+        <p className='text-green-500 text-lg'>PKR 50&apos;000</p>
         <button className='text-white bg-blue-600 py-3 px-7 rounded-md mx-auto'><Link href="/form">Make Payment</Link></button>
     </div>
   )
