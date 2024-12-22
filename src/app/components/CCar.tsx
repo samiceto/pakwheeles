@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const CCar = (props:any) => {
+const CCar = () => {
   return (
     <div className='px-2 py-4 bg-white w-56 shadow-lg shadow-slate-300'>
     <Image src="/1.jpg" alt="" width={500} height={500} className=''></Image>
