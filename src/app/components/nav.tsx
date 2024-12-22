@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Nav = () => {
   return (
-    <div className='bg-black h-20 px-11 py-1'>
+    <div className='bg-black h-fit px-11 py-1'>
 <div className='flex justify-between'>
     <div className='flex'>
         <Image src="/mobile.png" alt="#" width={500} height={500} className='h-[15px] w-auto'></Image>
@@ -18,7 +18,7 @@ const Nav = () => {
     </div>
 </div>
 <hr className='opacity-20 mt-1'></hr>
-<div className='flex my-2 justify-between'>
+<div className='flex my-2 justify-between flex-wrap'>
     <div>
     <Image src="/logo.png" alt="#" width={500} height={500} className='h-[30px] w-auto pb-2 mt-1'></Image>
     </div>

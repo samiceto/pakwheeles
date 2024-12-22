@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='border border-[1.4px] flex gap-10 w-fit px-20 pt-10 m-10 mx-auto relative'>
-        <div className='absolute font-bold -top-4 left-40 text-lg opacity-100'><h1 className='bg-white px-5 opacity-80'>Sell Your Car on PakWheels and Get the Best Price</h1></div>
+    <div className='border-[1.4px] flex flex-col items-center md:flex-row py-7 gap-10 w-fit md:px-20 px-4 pt-10 m-10 mx-auto relative'>
+        <div className='absolute font-bold -top-4 md:left-40 left-6 text-center text-lg opacity-100'><h1 className='bg-white px-5 opacity-80'>Sell Your Car on PakWheels and Get the Best Price</h1></div>
         <div className='flex flex-col gap-3'>
             <h1 className='text-blue-800 font-semibold'>Post Your Ad on Pakwheels</h1>
             <p className='text-sm'><span className='text-green-600'>✓</span> Post your Ad for Free in 3 Easy Steps</p>
